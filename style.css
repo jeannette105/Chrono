@@ -1,0 +1,32 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(195, 249, 197);
+}
+.ent{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.go{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+#choice{
+    width: 5%;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#go{
+    width: 3%;
+    border: 1px solid red;
+}
+#go:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.139);
+}
